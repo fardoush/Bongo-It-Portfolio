@@ -302,7 +302,7 @@ background: beige;
   transition: all 0.35s ease;
 }
 .header.on-scroll {
-  background: var(--color-black-300);
+  background:#ffffff;
   box-shadow: var(--shadow-medium);
 }
 
@@ -579,3 +579,169 @@ background: beige;
   transform: rotate(90deg);
   background:#222;
 }/*# sourceMappingURL=main.css.map */
+
+
+/*
+|----------------------------------------------------------------------------
+	13. Service/ .service-section
+|----------------------------------------------------------------------------
+*/
+
+.service-section {
+    background: #fff;
+    height: auto;
+    padding: 100px 0;
+}
+
+.service-container {
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.service-box {
+    text-align: center;
+    cursor: pointer;
+}
+
+.service-icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #ff9f1a;
+    color: #fff;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: 0.3s linear;
+}
+
+.service-icon i {
+    line-height: 60px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+}
+.service-container .read {
+    color: #ff9f1a;
+    font-weight: 600;
+    font-size:20px;
+}
+
+.service-container:hover .service-icon {
+    background: #fff!important;
+    color: #ff9f1a;
+    transition: 0.8s ease all;
+    transform: rotate(45deg);
+}
+
+.service-container:hover {
+    transform: translateY(-20px);
+    transition: 0.8s ease all;
+    background: #ff9f1a;
+    color: #fff;
+}
+
+.service-container:hover h4,
+.service-container:hover p,
+.service-container:hover .read {
+    color: #fff;
+}
+
+
+/*
+|----------------------------------------------------------------------------
+	14. SUCCESS STORY/ #success-story
+|----------------------------------------------------------------------------
+*/
+
+#success-story {
+    background: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-title {
+    color: #ff9f1a;
+    margin: 0;
+}
+
+#success-story .counter-wrap {
+    margin: 40px 0 0;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    padding: 20px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+#success-story .counter-icon {
+    margin: 0 0 15px;
+}
+
+#success-story .counter-wrap .counter-icon i {
+    color: #ff9f1a;
+    border-radius: 5px;
+    font-size: 32px;
+    height: 64px;
+    line-height: 64px;
+    width: 64px;
+}
+
+#success-story .counter-wrap:hover i {
+    background: #fff;
+    color: #ff9f1a;
+    transition: 0.8s ease all;
+}
+
+#success-story .counter-wrap:hover {
+    transform: translateY(-20px);
+    transition: 0.5s;
+    background: #ff9f1a;
+    border: none;
+    color: #fff;
+}
+
+#success-story .counter {
+    color: #222;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+}
+
+#success-story .counter-wrap:hover .counter-text .counter,
+#success-story .counter-wrap:hover .counter-text p {
+    color: #fff;
+}
+
+#success-story .counter-wrap p {
+    color: #111;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#success-story.light-bg {
+    color: #000;
+}
+
+#success-story.light-bg .counter-wrap i {
+    border: 2px solid #000;
+    color: #000;
+}
+
+#success-story.light-bg .counter-wrap:hover i {
+    color: #fff;
+    transition: 0.5s;
+}
+
+#success-story.light-bg .counter {
+    color: #000;
+}
+
+#success-story.light-bg .counter-wrap p {
+    color: #000;
+}
