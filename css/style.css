@@ -1021,6 +1021,7 @@ Blog
 .news-section {
   background: #f9f9f9;
   height: auto;
+  padding-top:0;
 }
 
 .news-section .post-box {
