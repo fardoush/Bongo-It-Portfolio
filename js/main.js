@@ -132,6 +132,51 @@ owl2.owlCarousel({
     }
 });
 
+var owl = $('#testimonial-carousel');
+owl.owlCarousel({
+    autoplay: true,
+    loop: true,
+    nav: false,
+    dots: false,
+    margin: 10,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        960: {
+            items: 2
+        },
+
+        1200: {
+            items: 1
+        }
+    }
+});
+
+// brand slider 
+
+$('.owl-carousel').owlCarousel({
+    autoplay: true,
+    loop: true,
+    nav: false,
+    dots: false,
+    margin:10,
+    center: true,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:8
+        }
+    }
+})
   
    });
 

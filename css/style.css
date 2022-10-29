@@ -1013,6 +1013,73 @@ iframe {
 }
 
 
+
+/*
+|----------------------------------------------------------------------------
+	17. Testimonial/ .testimonial-section
+|----------------------------------------------------------------------------
+*/
+
+.testimonial-section {
+  background: #f9f9f9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.test-slides {
+  margin-top: 20px;
+}
+
+.testimonial-box {
+  border: none;
+}
+
+.testimonial-wrap {
+  padding: 25px 30px 30px;
+  border-radius: 7px;
+  box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+}
+
+.star {
+  margin-bottom: 20px;
+}
+
+.star a {
+  color: #FFCC00;
+  font-size: 16px;
+}
+
+.client-comment {
+  margin-bottom: 20px;
+}
+
+.client-comment p {
+  font-weight: 400;
+}
+
+.client-review {
+  display: flex;
+}
+
+.client-img img {
+  max-width: 70px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.client-info {
+  align-self: center;
+}
+
+.client-info h4 {
+  color: #555555;
+  margin-bottom: 10px;
+}
+
+
 /*
 |----------------------------------------------------------------------------
 20. contact/ .contact-section
@@ -1091,6 +1158,64 @@ iframe {
 .message-box {
   margin-bottom: 30px;
 }
+
+
+/*
+|----------------------------------------------------------------------------
+21.Brands/.brand-section
+|----------------------------------------------------------------------------
+*/
+
+.brand-section .brand-carousel{
+
+}
+
+.brand-section .brand-carousel .item{
+  
+}
+
+.owl-item > div {
+  cursor: pointer;
+  margin: 10% 8%;
+  /* margin-top:10%;
+  margin-left:8%;
+  margin-right:8%; */
+  transition: margin 0.4s ease;
+ 
+}
+.owl-item.center > div {
+  cursor: auto;
+  margin: 0;
+
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+}
+.owl-item:not(.center) > div:hover {
+  opacity: .75;
+}
+
+/* .brand-section .brand-carousel .item img {
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+}
+.brand-section .brand-carousel .item img {
+  height: 100px;
+  float: left;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+.brand-section .brand-carousel .item img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+} */
+
 
 
 /*
