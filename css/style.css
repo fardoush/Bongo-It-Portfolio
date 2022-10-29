@@ -1020,52 +1020,107 @@ iframe {
 |----------------------------------------------------------------------------
 */
 
-.testimonial-section {
-  background: #f9f9f9;
+.about-section {
+  background: #ffffff;
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
+  padding-top:100px;
 }
 
+.about-inner{
+  margin-bottom: 20px;
+}
+
+.about-content{
+  display:flex;
+  justify-content:center;
+  align-items: start;
+  flex-direction: column;
+  margin-bottom:15px;
+}
+.about-content h2{
+  font-size:38px;
+  margin-bottom:15px;
+}
+
+.about-images{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom:15px; 
+}
 .test-slides {
   margin-top: 20px;
 }
 
 .testimonial-box {
   border: none;
+  /* border:1px solid #222; */
+  margin: 50px 0;
+  /* box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1); */
 }
 
+
+/* .about-section .owl-item > div{
+  margin-top:50px;
+  margin-bottom:100px;
+} */
 .testimonial-wrap {
   padding: 25px 30px 30px;
   border-radius: 7px;
+  margin: 50px;
   box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+  
 }
 
+.fa-quote-left{
+  color:#FF9800;
+  font-size:58px;
+  padding:20px;
+}
+.fa-quote-right{
+  color:#FF9800;
+  font-size:58px;
+  padding:20px;
+}
 .star {
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
-.star a {
-  color: #FFCC00;
+.star i{
+  color: #FF9800;
   font-size: 16px;
 }
 
 .client-comment {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
 }
 
 .client-comment p {
   font-weight: 400;
+  max-width:600px;
+  margin-bottom: 15px;
 }
 
 .client-review {
   display: flex;
 }
-
+.client-img{
+margin-bottom: 15px;
+}
 .client-img img {
-  max-width: 70px;
-  width: 70px;
-  height: 70px;
+  max-width: 100px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   margin-right: 20px;
 }
@@ -1079,6 +1134,9 @@ iframe {
   margin-bottom: 10px;
 }
 
+.client-info span{
+  margin-bottom: 15px;
+}
 
 /*
 |----------------------------------------------------------------------------
@@ -1089,6 +1147,7 @@ iframe {
 .contact-section {
   background: #fff;
   height: auto;
+  padding-top:0;
 }
 
 .contact-box {
@@ -1174,9 +1233,9 @@ iframe {
   
 }
 
-.owl-item > div {
+.brand-section .owl-item > div {
   cursor: pointer;
-  margin: 10% 8%;
+  margin: 15% 3%;
   /* margin-top:10%;
   margin-left:8%;
   margin-right:8%; */
